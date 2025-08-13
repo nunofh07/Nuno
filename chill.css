@@ -1,0 +1,107 @@
+/* Resetting the default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+header h1 {
+    color: #3498db;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #555;
+    text-align: center;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Product List Styling */
+.product-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: calc(25% - 20px);
+    text-align: center;
+    padding: 20px;
+}
+
+.product img {
+    width: 100%;
+    border-radius: 10px;
+    height: auto;
+}
+
+.product h2 {
+    margin-top: 10px;
+    color: #2c3e50;
+    font-size: 1.5em;
+}
+
+.product .price {
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: #e74c3c;
+}
+
+.product .buy-btn {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.product .buy-btn:hover {
+    background-color: #2980b9;
+}
+
+/* Hover effect for product cards */
+
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 1em;
+    color: #777;
+}
